@@ -1,0 +1,47 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "p4m: diff current file",
+      "type": "shell",
+      "command": "p4m",
+      "args": [
+        "diff",
+        "${file}"
+      ],
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "p4m: open current file",
+      "type": "shell",
+      "command": "p4m",
+      "args": [
+        "open",
+        "${file}"
+      ],
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "p4m: checkout current file",
+      "type": "shell",
+      "command": "p4m",
+      "args": [
+        "checkout",
+        "${file}"
+      ],
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared"
+      },
+      "problemMatcher": []
+    }
+  ]
+}
